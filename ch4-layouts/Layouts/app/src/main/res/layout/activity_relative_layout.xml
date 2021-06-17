@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:id="@+id/lbUser"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/txtUser"
+        android:layout_below="@id/lbUser"/>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:id="@+id/lbPassword"
+        android:layout_below="@id/txtUser"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/txtPassword"
+        android:layout_below="@id/lbPassword"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center"
+        android:id="@+id/btOk"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtPassword"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
